@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { FaReact, FaPython } from "react-icons/fa";
 import { SiTensorflow } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 interface HeroSectionProps {
   name: string;
@@ -70,9 +71,11 @@ function HeroSection({ name, subtitle }: HeroSectionProps) {
         )}
 
         <div className="flex gap-4">
-          <button className="px-7 py-3 rounded-lg bg-blue-500 hover:bg-blue-600 transition font-semibold">
-            View My Work
-          </button>
+          <Link to = "/projects">
+            <button className="px-7 py-3 rounded-lg bg-blue-500 hover:bg-blue-600 transition font-semibold">
+              View My Work
+            </button>
+          </Link>
 
           <button className="px-7 py-3 rounded-lg border border-gray-600 hover:border-blue-400 hover:text-blue-400 transition">
             Contact Me
