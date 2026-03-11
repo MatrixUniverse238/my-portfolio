@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { supabase } from "../lib/supabase";
-import { FaLinkedin, FaFacebook, FaEnvelope } from "react-icons/fa";
 import linkedin from "../images/linkedin.png";
 import gmail from "../images/gmail.png";
 import facebook from "../images/facebook.png";

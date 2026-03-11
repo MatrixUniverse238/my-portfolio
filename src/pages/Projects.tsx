@@ -3,7 +3,7 @@ import { supabase } from "../lib/supabase";
 import { motion } from "framer-motion";
 
 function Projects() {
-  const [projects, setProjects] = useState([]);
+  const [projects, setProjects] = useState<any[]>([]);
 
   useEffect(() => {
     fetchProjects();

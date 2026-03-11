@@ -5,6 +5,7 @@ import { SiTensorflow } from "react-icons/si";
 
 interface HeroSectionProps {
   name: string;
+  role: string;
   subtitle?: string;
 }
 
