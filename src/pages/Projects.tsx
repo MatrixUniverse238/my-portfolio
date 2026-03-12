@@ -49,9 +49,26 @@ function Projects() {
               {project.tech}
             </p>
 
-            <div className="flex gap-4">
-              <a href={project.github} target="_blank">GitHub</a>
-              <a href={project.demo} target="_blank">Live Demo</a>
+            <div className="flex gap-4 mt-4">
+
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-lg bg-gray-800 hover:bg-gray-700 text-white text-sm font-medium transition"
+              >
+                GitHub
+              </a>
+
+              <a
+                href={project.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-lg bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium transition"
+              >
+                Live Demo
+              </a>
+
             </div>
           </motion.div>
         ))}
