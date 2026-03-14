@@ -74,7 +74,7 @@ function ContactForm() {
           <div className="flex gap-6 text-3xl">
 
             <a
-              href="https:www.linkedin.com/in/aniket-barman238"
+              href="https://www.linkedin.com/in/aniket-barman238"
               target="_blank"
               rel="noopener noreferrer"
             >
