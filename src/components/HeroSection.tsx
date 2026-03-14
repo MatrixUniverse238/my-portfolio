@@ -76,10 +76,12 @@ function HeroSection({ name, subtitle }: HeroSectionProps) {
               View My Work
             </button>
           </Link>
-
-          <button className="px-7 py-3 rounded-lg border border-gray-600 hover:border-blue-400 hover:text-blue-400 transition">
-            Contact Me
-          </button>
+          
+          <a href =  "#contact">
+            <button className="px-7 py-3 rounded-lg border border-gray-600 hover:border-blue-400 hover:text-blue-400 transition">
+              Contact Me
+            </button>
+          </a>
         </div>
       </div>
 
